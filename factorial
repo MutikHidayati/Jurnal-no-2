@@ -1,0 +1,19 @@
+public class No2 {
+    public static int factorial(int n) {
+            int hasil=1;
+            for(int i=n;i>0;i--){
+                hasil=hasil*i;
+            }
+            return hasil;
+  
+    }
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Input: ");
+        int nilai=input.nextInt();
+        No2 f=new No2();
+        System.out.println(factorial(nilai));
+   
+    }
+      
+}
